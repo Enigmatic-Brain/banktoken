@@ -103,7 +103,7 @@ All data is loaded via `datasets.load_dataset()` — no manual downloads require
 ### Install
 
 ```bash
-pip install datasets transformers huggingface_hub
+pip install -r requirements.txt
 ```
 
 ### Train
@@ -111,7 +111,6 @@ pip install datasets transformers huggingface_hub
 ```bash
 python train.py
 # Trains on financial corpus, saves banktoken.json
-# Runtime: ~5 min on CPU (16,000 vocab, 20,000 sentences)
 ```
 
 ### Encode / Decode
